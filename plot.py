@@ -1,12 +1,10 @@
 # Aufruf: python plot.py confirmed perc Italy France
 
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
 import sys
 
-if 1+1==2:
-	print("Leo Barbossa!")
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 
 if sys.argv[1] in ["confirmed", "deaths", "recovered"]:
 	if sys.argv[1] == "recovered":
